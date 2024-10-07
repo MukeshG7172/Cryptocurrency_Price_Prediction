@@ -87,23 +87,20 @@ Make sure the dates are in sequential order without missing any values, as this 
 - **MSE (Mean Squared Error)**: Measures the average squared difference between actual and predicted values.
   
   Formula:
-  \[
-  MSE = rac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2
-  \]
+  MSE = (1/n) * Σ(actual - predicted)^2
+
 
 - **RMSE (Root Mean Squared Error)**: The square root of MSE, providing error in the same units as the original data.
 
   Formula:
-  \[
-  RMSE = \sqrt{MSE}
-  \]
+  RMSE = √MSE
+
 
 - **MAPE (Mean Absolute Percentage Error)**: Measures the accuracy of predictions as a percentage.
 
   Formula:
-  \[
-  MAPE = rac{1}{n} \sum_{i=1}^{n} \left| rac{y_i - \hat{y_i}}{y_i} ight| 	imes 100
-  \]
+ MAPE = (1/n) * Σ(|(actual - predicted) / actual|) * 100
+
 
 ## Contributing
 
